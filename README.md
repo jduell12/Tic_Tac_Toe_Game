@@ -46,3 +46,13 @@ We need to layout and style the game board.
 * Think about the borders that certain cells share in common. In the example above, we added a bottom border to the .top cells because all of the top cells have a bottom border. Create the borders for the others.
 * We don't need styling for the .middle class, but we're going to leave it in our HTML. You'll understand why when we get to the JavaScript section of the game.
 Add a style to change the cursor to a pointer whenever a cell is moused over.
+
+JavaScript 
+Requirements
+
+1. Players can click on a cell in order to make a move.
+* X is always the first player.
+2. After each move, the board is checked for a winner or a draw.
+* If there is a winner or draw, show a message that announces the winner or declares a draw.
+3. Clicking the board when a game is over should reset the board so that a new game can be played.
+
